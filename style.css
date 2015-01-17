@@ -1,0 +1,182 @@
+
+/*--------------GENERAL-STYLES--------------*/
+
+html {
+	font-family: Helvetica, sans-serif;
+	font-size: 0.8125em;
+}
+
+body {
+	width: 100%;
+}
+
+header {
+	width: 100%;
+	background-color: #eee;
+	padding-top: 15px;
+	height: 45px;
+}
+
+footer {
+	display: none;
+    left:0px;
+    bottom:0px;
+    height:40px;
+    width:100%;
+    background:#eee;
+} 
+
+/*--------------LOGO-AND-SEARCHBAR--------------*/
+
+#searchbox {
+	display: inline;
+	width: 60%;
+}
+
+#google-image {
+	width: 90px;
+	margin-left: 15px;
+	text-align: center;
+}
+
+#terms {
+	vertical-align: top;
+	display: inline;
+	margin-left: 15px;
+	max-width: 572px;
+	min-width: 572px;
+	height: 27px;
+	background: url(../img/mic.svg) right center no-repeat;
+	background-color: white;
+	border: 1px solid #ddd;
+}
+
+/*--------------HEADER-RIGHT--------------*/
+
+#header-right {
+	margin-top: -32px;
+	margin-right: 30px;
+	float: right;
+	display: inline;
+}
+
+#container {
+	width: 100%;
+}
+
+/*--------------SEARCH-TYPES--------------*/
+
+#search-types {
+	text-decoration: none;
+	height: 60px;
+	border-bottom: 1px solid #ddd;
+}
+
+/*--------------RESULTS--------------*/
+
+#results {
+	display: inline-block;
+	float: left;
+	margin-left: 135px;
+	width: 530px;
+}
+
+/*--------------INFO-BOX--------------*/
+
+#info-box {
+	display: inline;
+	margin-left: 750px;
+	min-width: 500px;
+	max-width: 500px;
+
+}
+
+/*--------------BUTTON-STYLES--------------*/
+
+#app-drawer {
+	vertical-align: middle;
+	opacity: 0.5;
+}
+
+#app-drawer:hover {
+	opacity: 1;
+}
+
+#signin {
+	color: #fff;
+	background-color: #36f;
+	border: 1px solid #36f;
+	padding: 5px 7px;
+	font-family: Arial, sans-serif;
+	font-weight: 700;
+}
+
+#search-button {
+	vertical-align: top;
+	margin-left: -5px;
+	padding: 7px;
+	font-size: 0.85em;
+	min-height: 31px;
+	font-weight: 700;
+	color: #333;
+	background-color: #eee;
+	border: 1px solid #bbb;
+}
+
+
+/*--------------LIST-STYLES--------------*/
+
+ul {
+	margin: 0 15px;
+}
+
+li{
+	list-style-type: none;
+	display: inline;
+}
+
+ul.top li {
+	padding: 0 10px;
+}
+
+ul.left {
+	float: left;
+}
+
+ul.right {
+	float: right;
+}
+
+ul.bottom {
+	padding-top: 15px;
+}
+
+ul.bottom li {
+	padding: 0 15px;
+}
+
+
+/*--------------LINK-STYLES--------------*/
+a:link {
+	text-decoration: none
+	;
+}
+
+a.search-result:link {
+	font-size: 1.4em;
+	color: #009;
+}
+
+a.search-result:hover {
+	text-decoration: underline;
+}
+
+/*--------------TEXT-STYLES--------------*/
+
+.address {
+	color: #004700;
+}
+
+.main-site {
+	color: #888;
+}
